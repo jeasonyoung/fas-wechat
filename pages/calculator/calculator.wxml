@@ -1,0 +1,114 @@
+<view class='box-container'>
+  
+  <view class='input-zone-view'>
+    <text class='input-zone'>{{text}}</text>
+  </view>
+
+  <view class='row-view'>
+    <view class='fuc-view'>
+      <text class='fuc-text'>C</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <icon type='cancel' color='white' size='40'/>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <text class='fuc-text'>%</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <text class='fuc-text'>÷</text>
+    </view>
+  </view>
+
+  <view class='deviler-horizontal'/>
+  <view class='row-view'>
+    <view class='num-view'>
+      <text class='num-text'>7</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>8</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>9</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <text class='fuc-text'>x</text>
+    </view>
+  </view>
+
+  <view class='deviler-horizontal'/>
+  <view class='row-view'>
+    <view class='num-view'>
+      <text class='num-text'>4</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>5</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>6</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <text class='fuc-text'>-</text>
+    </view>
+  </view>
+
+  <view class='deviler-horizontal'/>
+  <view class='row-view'>
+    <view class='num-view'>
+      <text class='num-text'>1</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>2</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>3</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='fuc-view'>
+      <text class='fuc-text'>+</text>
+    </view>
+  </view>
+
+  <view class='deviler-horizontal'/>
+  <view class='row-view'>
+    <view class='num-view'>
+      <text class='num-text'>.</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>0</text>
+    </view>
+
+    <view class='deviler-vertical'/>
+    <view class='num-view'>
+      <text class='num-text'>=</text>
+    </view>
+
+    <view class='fuc-view'>
+      <text class='fuc-text'></text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!-- index.wxml -->
+<view class="container">
+  <view>
+    <button type='default' bindtap='onFlexClick'>flex</button>
+    <button type='default' bindtap='onIconClick'>icon</button>
+    <button type='default' bindtap='onProgressClick'>progress</button>
+    <button type='default' bindtap='onCalculatorClick'>calculator</button>
+    <button type='default' bindtap='onDataClick'>data</button>
+  </view>
+
+  <!-- <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+  </view>
+  -->
+
+   <view class='usermotto'>
+    <text class='user-motto'>{{motto}}</text>
+  </view>
+</view>

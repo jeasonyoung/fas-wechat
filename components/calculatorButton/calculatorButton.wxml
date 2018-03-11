@@ -1,0 +1,3 @@
+<template name="calculator">
+  <text>{{text}}</text>
+</template>
